@@ -1,4 +1,4 @@
-# 🌊✨ AuraFlow
+# AuraFlow
 
 > **Multimodal Video Intelligence Platform** — Transcribe, Analyze, Compare, and Understand any video using AI.
 
@@ -6,23 +6,23 @@ AuraFlow is an end-to-end video analysis pipeline built on Google Colab that com
 
 ---
 
-## 🚀 Features
+##  Features
 
 | Feature | Description |
 |---|---|
-| 🎙️ **Transcription** | Whisper-powered speech-to-text with speaker diarization (pyannote) |
-| 👥 **Speaker Detection** | Identifies and labels individual speakers with timestamps |
-| 🎨 **Visual Analysis** | BLIP keyframe extraction and captioning synced to transcript |
-| 📋 **Combined Summary** | LLaMA merges audio + visual into one cohesive overview |
-| 📑 **Chapters & Key Moments** | Auto-generated chapter breakdown and highlights |
-| 🎭 **Multimodal Sentiment Timeline** | Fine-tuned RoBERTa (85%+ accuracy) fused with BLIP visual emotion scoring |
-| 🎯 **Similarity Evaluation** | Auto mode (LLaMA generates reference) + Manual mode with semantic match score |
-| 🌍 **Translation** | Translate transcript and summaries into 14 languages |
-| 💬 **Q&A Chat** | RAG + LLaMA — ask anything about the video |
+|  **Transcription** | Whisper-powered speech-to-text with speaker diarization (pyannote) |
+|  **Speaker Detection** | Identifies and labels individual speakers with timestamps |
+|  **Visual Analysis** | BLIP keyframe extraction and captioning synced to transcript |
+|  **Combined Summary** | LLaMA merges audio + visual into one cohesive overview |
+|  **Chapters & Key Moments** | Auto-generated chapter breakdown and highlights |
+|  **Multimodal Sentiment Timeline** | Fine-tuned RoBERTa (85%+ accuracy) fused with BLIP visual emotion scoring |
+|  **Similarity Evaluation** | Auto mode (LLaMA generates reference) + Manual mode with semantic match score |
+|  **Translation** | Translate transcript and summaries into 14 languages |
+|  **Q&A Chat** | RAG + LLaMA — ask anything about the video |
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 ```
 Video Input
@@ -47,7 +47,7 @@ Video Input
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Component | Technology |
 |---|---|
@@ -66,7 +66,7 @@ Video Input
 
 ---
 
-## ⚙️ Setup & Usage
+##  Setup & Usage
 
 ### Prerequisites
 - Google Colab account (free tier works, T4 GPU recommended)
@@ -97,11 +97,11 @@ Cell 14 →  Fine-tune RoBERTa + BLIP visual emotion fusion
 Cell 15 →  Launch Gradio UI
 ```
 
-> ⚠️ **Important:** After Cell 1 auto-restarts, skip it and start from Cell 2. After Cell 2 finishes, manually restart the runtime once more before continuing.
+>  **Important:** After Cell 1 auto-restarts, skip it and start from Cell 2. After Cell 2 finishes, manually restart the runtime once more before continuing.
 
 ---
 
-## 🎭 Multimodal Sentiment Analysis
+##  Multimodal Sentiment Analysis
 
 The most technically advanced feature — combines **text** and **visual** signals for richer sentiment understanding:
 
@@ -123,7 +123,7 @@ The most technically advanced feature — combines **text** and **visual** signa
 
 ---
 
-## 🎯 Similarity Evaluation
+##  Similarity Evaluation
 
 Two modes for flexible video content assessment:
 
@@ -140,7 +140,7 @@ Two modes for flexible video content assessment:
 
 ---
 
-## 💰 Cost
+##  Cost
 
 | Service | Cost |
 |---|---|
@@ -152,7 +152,7 @@ Two modes for flexible video content assessment:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 AuraFlow_Integrated.ipynb    # Main notebook — all cells
@@ -162,13 +162,13 @@ README.md                    # This file
 
 ---
 
-## 🏆 Built For
+##  Built For
 
 This project was built for a hackathon targeting automated video content evaluation — comparing spoken and visual content against reference answers using semantic AI, with multimodal sentiment analysis powered by a fine-tuned RoBERTa transformer model fused with visual signals from BLIP.
 
 ---
 
-## 📌 Notes
+##  Notes
 
 - The Gradio share link is active only while the Colab session is running
 - For permanent deployment, use [Hugging Face Spaces](https://huggingface.co/spaces) via `gradio deploy`
